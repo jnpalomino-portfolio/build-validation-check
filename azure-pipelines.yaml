@@ -11,4 +11,4 @@ resources:
       ref: 'refs/heads/feature/segmentacion_templates'
 
 stages:
-  - template: build-validation.yaml@templates
+  - template: tasks/build-validation.yaml@templates
