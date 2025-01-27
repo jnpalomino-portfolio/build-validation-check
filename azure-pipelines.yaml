@@ -3,9 +3,6 @@ trigger:
     include:
       - "*"
 
-pool:
-  vmImage: 'windows-latest'
-
 resources:
   repositories:
     - repository: templates
